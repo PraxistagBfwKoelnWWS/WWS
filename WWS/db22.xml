@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<verbindungenliste>
+<verbindung aktiv="true" benutzer="WWS" passwort="WWS" url="jdbc:mysql://192.168.151.117/Projekt_WWS">
+		DB Server
+	</verbindung>
+<verbindung aktiv="false" benutzer="root" passwort="" url="jdbc:mysql://localhost/Projekt_WWS">
+		lokale Verbindung
+	</verbindung>
+</verbindungenliste>

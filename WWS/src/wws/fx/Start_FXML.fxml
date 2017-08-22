@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:controller="wws.fx.Start_FXMLController" xmlns:fx="http://javafx.com/fxml" prefHeight="300" prefWidth="420"
+    alignment="center" hgap="10" vgap="10"> 
+        <Text text="BFD-WWS Login"
+            GridPane.columnIndex="0" GridPane.rowIndex="0"
+            GridPane.columnSpan="2"/>         
+        <Label text="Username:"
+            GridPane.columnIndex="0" GridPane.rowIndex="1"/>             
+        <TextField id="userNameField" fx:id="UserNameTextField"
+            GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        <Label text="Password:"
+            GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+        <TextField id="passWordField" fx:id="textfield2"
+            GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+        <Button id="loginButton"  text="Login"
+            onAction="#handleLoginButtonAction" fx:id="loginButton"
+            GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+        <Button id="connectionButton" text="Verbindung bearbeiten"
+            onAction="#handleConnectionButtonAction" fx:id="connectionButton"
+            GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+</GridPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<verbindungenliste>
+
+	<verbindung>
+		<url>
+			jdbc:mysql://192.168.151.117/Projekt_WWS
+		</url>
+		<benutzer>
+			WWS
+		</benutzer>
+		<passwort>
+			WWS
+		</passwort>
+	</verbindung>
+	<verbindung>
+		<url>
+			jdbc:mysql://localhost/Projekt_WWS
+		</url>
+		<benutzer>
+			root
+		</benutzer>
+		<passwort>
+			hmm
+		</passwort>
+	</verbindung>
+	
+</verbindungenliste>
